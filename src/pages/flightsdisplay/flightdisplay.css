@@ -1,0 +1,81 @@
+.con{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  height: 75px;
+  padding : 20px;
+  border-radius: 5px;
+  width: 90%;
+  margin-left: 5%;
+  box-shadow: black;
+}
+.col0{
+  width: 15%;
+  height: 75px;
+}
+.col1 {
+  width: 10%;
+  height: 50px;
+  margin-left: 5px;
+  margin-top: 25px;
+}
+.col2 {
+  width: 15%;
+  height: 75px;
+}
+.col3 {
+  width: 15%;
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+  height: 75px;
+}
+.col4 {
+  width: 20%;
+  height: 75px;
+  margin-right: 10%;
+}
+.col5 {
+  width: 20%;
+  height: 75px;
+}
+
+.card {
+  border-radius: 25px;
+  position: relative;
+  height: 125px;
+  background-color: white;
+  width: 80%;
+  margin-left: 10%;
+}
+.location {
+  font-size: 20px;
+}
+.city {
+  font-size: 15px;
+}
+.time {
+  text-align: center;
+  font-size: 15px;
+  width: 100px;
+  text-decoration-color: grey;
+}
+.price {
+  margin-top: 35px;
+}
+.flightnum {
+  font-size: 15px;
+}
+.col6 {
+  margin-top: 3%;
+  margin-left: 2%;
+}
+.btn {
+  align-items: center;
+  border: none;
+  height: 40px;
+  background-color: orange;
+  width: 80px;
+  color: white;
+  font-weight: bolder;
+  border-radius: 5px;
+}

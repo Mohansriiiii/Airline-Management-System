@@ -1,0 +1,97 @@
+
+.body-Itinerary {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f7f8fc;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .header-itinerary {
+    background-color: #ea740c;
+    padding: 10px 20px;
+    border-radius:8px;
+  }
+  
+  .nav-itinerary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+  }
+  
+  .logo-itinerary {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .container-itinerary {
+    width: 200%;
+    max-width: 800px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-left:210px;
+    margin-top:15px;
+  }
+  
+  .content-itinerary {
+    background-size: cover;
+    background-position: center;
+    box-shadow:  0 0 10px rgba(113, 108, 108, 0.836);
+    padding: 20px;
+  }
+  
+  .itinerary {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    height:380px;
+  }
+  
+  .itinerary h2 {
+    margin-left:0px;
+    color: #ea740c;
+  }
+  
+  
+  
+  .detail {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  
+  
+  
+  .buttons-itinerary {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  
+  .selectSeat {
+    background-color: #d62d0b;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .continue {
+    background-color: #ea6a1a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+   

@@ -1,0 +1,73 @@
+
+  
+  .title {
+    text-align: center;
+  }
+  
+  .flight-info {
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 2%;
+    border-radius: 25px;
+    margin-top: 2%;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .locations {
+    font-size: 16px;
+  }
+  
+  .info {
+    font-size: 14px;
+    color: gray;
+  }
+  
+  .img {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .flight-details {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+  }
+  
+  .section1, .section2 {
+    margin-left: 5%;
+  }
+  
+  .duration {
+    align-items: center;
+    margin-top: 15%;
+    text-align: center;
+    width: 50%;
+    margin-left: 15%;
+  }
+  
+  .baggage-info, .cabin-info, .checkin-info {
+    text-align: center;
+  }
+  
+  .traveller-details {
+    margin-left: 25%;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+    width: 50%;
+    padding: 10px;
+    margin-top: 3%;
+    border-radius: 20px;
+    color: black;
+  }
+  
+  .confirm-button {
+    background-color: orange;
+    margin-left: 45%;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    height: 40px;
+    width: 100px;
+    margin-top: 2%;
+  }
+  

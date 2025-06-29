@@ -1,0 +1,307 @@
+/* General body and container styling */
+.body-container {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center vertically as well */
+    min-height: calc(100vh - 70px); /* Adjust for fixed navbar height */
+    background-color: #f0f2f5; /* A very light, subtle background color */
+    margin-top: 70px; /* Offset for fixed navbar */
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px; /* Add some overall page padding */
+}
+
+.edit-container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px; /* Further increased width for a larger card */
+    max-width: 90%;
+    margin: 50px 0;
+    gap: 25px;
+}
+
+.edit-container:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+}
+
+/* Header Styling */
+.edit-header {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the title */
+    width: 100%;
+    margin-bottom: 30px; /* Space below the header */
+}
+
+.back-btn-edit {
+    background-color: transparent; /* No background */
+    border: none;
+    color: #ff8a08; /* Consistent orange from your theme */
+    font-size: 0.9rem; /* Smaller arrow for maximum subtlety */
+    cursor: pointer;
+    padding: 3px 5px; /* Reduced padding for a very small visual footprint */
+    border-radius: 8px; /* Consistent rounded corners */
+    transition: color 0.3s ease, transform 0.2s ease;
+    font-weight: 600;
+}
+
+.back-btn-edit:hover {
+    background-color: #ff8a08; /* Solid orange on hover */
+    color: white; /* White text on hover */
+    transform: translateX(-3px); /* Subtle slide effect */
+}
+
+.edit-h2 {
+    margin: 0; /* Remove auto margins to allow it to sit at the start of the flex container */
+    color: #ff8a08; /* Consistent orange for the title */
+    font-size: 1.8rem; /* Adjusted title size for better balance */
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+/* Form Styling */
+.profile-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px; /* Increased gap for more breathing room between form groups */
+}
+
+.mobile-input-group {
+    display: flex;
+    gap: 10px; /* Space between dropdown and input */
+    width: 100%;
+    position: relative; /* For dropdown positioning */
+    z-index: 2; /* Ensure dropdown is above other elements */
+}
+
+.country-code-wrapper {
+    position: relative; /* Context for absolute dropdown */
+    width: 70px; /* Fixed width for the country code section */
+    flex-shrink: 0;
+}
+
+.country-code-input {
+    padding: 12px 15px;
+    border-radius: 8px;
+    border: 1px solid #d0d0d0;
+    font-size: 1rem;
+    color: #333d47;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    width: 100%; /* Take full width of its wrapper */
+    flex-shrink: 0; /* Keep it from shrinking */
+}
+
+.country-code-input:focus {
+    outline: none;
+    border-color: #ff8a08;
+    box-shadow: 0 0 0 3px rgba(255, 138, 8, 0.2);
+}
+
+.country-code-dropdown-list {
+    position: absolute;
+    top: 100%; /* Position below the input */
+    left: 0;
+    width: 100%; /* Make it span the full width of the country-code-wrapper */
+    background-color: #ffffff;
+    border: 1px solid #d0d0d0;
+    border-radius: 8px;
+    max-height: 200px; /* Limit height and enable scrolling */
+    overflow-y: auto;
+    list-style: none;
+    padding: 0;
+    margin: 5px 0 0 0; /* Space below input */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+}
+
+.country-code-dropdown-list li {
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 1rem;
+    color: #333d47;
+}
+
+.country-code-dropdown-list li:hover {
+    background-color: #f0f0f0;
+}
+
+.mobile-input {
+    flex-grow: 1; /* Allow input to take remaining space */
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.edit-label {
+    font-weight: 600;
+    color: #4a4a4a;
+    margin-bottom: 8px; /* Optimized space between label and input */
+    display: block;
+    font-size: 1.1rem; /* Increased font size for better readability */
+}
+
+.edit-input {
+    width: 100%;
+    padding: 12px 15px;
+    border-radius: 8px;
+    border: 1px solid #d0d0d0; /* A very subtle grey border */
+    font-size: 1rem;
+    color: #333d47;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.edit-input:focus {
+    outline: none;
+    border-color: #ff8a08;
+    box-shadow: 0 0 0 3px rgba(255, 138, 8, 0.2);
+}
+
+/* Save Button Styling */
+.save-edit {
+    margin-top: 30px; /* Adjusted space above the button */
+    padding: 12px 25px; /* Slightly smaller button */
+    background-color: #ff8a08; /* Vibrant orange */
+    color: white;
+    border: none;
+    border-radius: 10px; /* Smoothly rounded button */
+    cursor: pointer;
+    font-size: 1.05rem; /* Slightly smaller font */
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    align-self: center; /* Center the button within the flex container */
+    width: 60%; /* Make button take more width */
+    max-width: 200px;
+}
+
+.save-edit:hover {
+    background-color: #e06d00; /* Darker orange on hover */
+    transform: translateY(-3px); /* More pronounced lift effect */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Soft shadow on hover */
+}
+
+.profile-picture-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.profile-picture-container {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+  background-color: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed #ccc;
+  transition: all 0.3s ease;
+}
+
+.profile-picture-container:hover {
+  border-color: #ff7e5f;
+  background-color: #fff5f3;
+}
+
+.profile-picture-preview {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.add-profile-picture {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.add-profile-picture span {
+  margin-top: 0.5rem;
+}
+
+.add-mobile-btn,
+.remove-mobile-btn {
+  width: 100%;
+  padding: 0.8rem;
+  border: 2px dashed #ccc;
+  background-color: transparent;
+  color: #666;
+  font-size: 0.9rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 1rem;
+}
+
+.add-mobile-btn:hover {
+  border-color: #ff7e5f;
+  color: #ff7e5f;
+  background-color: #fff5f3;
+}
+
+.remove-mobile-btn {
+  border: none;
+  color: #ff4444;
+  background-color: #fff5f5;
+  margin-top: 0.5rem;
+}
+
+.remove-mobile-btn:hover {
+  background-color: #ffe5e5;
+}
+
+.locked-input {
+  background-color: #f5f5f5;
+  cursor: not-allowed;
+  border-color: #e0e0e0;
+}
+
+.email-note {
+  font-size: 0.8rem;
+  color: #666;
+  margin-left: 0.5rem;
+  font-weight: normal;
+}
+
+.email-note::after {
+  content: " (optional)";
+  font-size: 0.8rem;
+  color: #666;
+  font-weight: normal;
+}
+
+.remove-profile-picture-btn {
+  background-color: #ff4d4d; /* Red color for delete */
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  margin-top: 10px; /* Space from the picture */
+  align-self: center;
+}
+
+.remove-profile-picture-btn:hover {
+  background-color: #cc0000;
+}
+  

@@ -1,0 +1,102 @@
+/* General Styles */
+.back {
+    font-family: Arial, sans-serif;
+}
+
+/* Flight Info Section */
+.flight-info {
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 2%;
+    border-radius: 25px;
+    margin-top: 2%;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Flight Details Section */
+.flight-details {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+/* Duration Section */
+.duration {
+    align-items: center;
+    margin-top: 15%;
+    text-align: center;
+    width: 50%;
+    margin-left: 15%;
+}
+
+/* Section 1 */
+.section1 {
+    margin-left: 5%;
+}
+
+/* Image */
+.img {
+    width: 32px;
+    height: 32px;
+}
+
+/* Fare Summary Section */
+.fare-summary {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 60%;
+    margin-top: 2%;
+    margin-left: 18%;
+}
+
+/* Fare Items */
+.fare-item, .fare-total {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.fare-item:last-child, .fare-total {
+    border-bottom: none;
+}
+
+/* Fare Description */
+.fare-description {
+    flex: 1;
+    text-align: left;
+}
+
+/* Fare Amount */
+.fare-amount {
+    flex: 1;
+    text-align: right;
+    font-weight: bold;
+}
+
+.fare-total {
+    font-size: 1.2em;
+    font-weight: bold;
+    border-top: 2px solid #ddd;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+/* Continue Button */
+.continue-button {
+    background-color: orange;
+    color: white;
+    border: none;
+    height: 45px;
+    width: 110px;
+    text-decoration: none; /* Fixed from text-decoration: #ddd; */
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+
+/* Title */
+.title {
+    text-align: center;
+}

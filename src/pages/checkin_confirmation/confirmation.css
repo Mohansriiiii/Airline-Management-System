@@ -1,0 +1,90 @@
+.body-confirm {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f7f8fc;
+    color: #e95f0a;
+    margin-top:45px;
+    margin-left:190px;
+    padding: 0;
+    height: 90vh;
+  }
+  
+  .container-confirm  {
+    width: 200%;
+    max-width: 800px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow:  0 0 10px rgba(188, 13, 13, 0.836);
+    margin-left:180px;
+    margin-top:15px;
+  }
+  
+  .header-confirm {
+    text-align: center;
+    border-bottom: 2px solid #e95f0a;
+    padding-bottom: 10px;
+  }
+  
+  .header-confirm h1 {
+    margin: 0;
+    color: #ff7e5f;
+  }
+  
+  section.confirmation {
+    text-align: left;
+    margin-top: 20px;
+  }
+  
+  .h2-confirm {
+    color: #ff7e5f;
+  }
+  
+  .confirmation-message {
+    background-color: #e9e7ddbc;
+    color:#ff7e5f;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .flight-info-c, .seat-selection-c, .addons-confirm {
+    margin: 20px 0;
+  }
+  
+  .h3-confirm {
+    color: #e98e10;
+    margin-bottom: 10px;
+  }
+  
+  .info-item-confirm {
+    margin: 5px 0;
+    font-size: 16px;
+  }
+  
+  .actions {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .but {
+    background-color: #d62d0b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 10px;
+    font-size: 18px;
+  }
+  
+  .but :hover {
+    background-color: #13579a;
+  }
+  .flight-info{
+    box-shadow:  0 0 10px rgba(128, 128, 124, 0.836);
+  }
+  .confirmation h2{
+    color:#ff7e5f;
+  }
+  

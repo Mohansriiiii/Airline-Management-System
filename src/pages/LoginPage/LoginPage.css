@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #fff5e6;
+}
+
+.login-page-wrapper {
+    min-height: calc(100vh - 64px); /* Adjust for navbar height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 64px; /* Prevent overlap with navbar */
+}
+
+.login-container {
+    background-color: white;
+    padding: 32px 28px 24px 28px;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(118, 50, 154, 0.10), 0 1.5px 6px rgba(0,0,0,0.08);
+    width: 380px;
+    text-align: center;
+    margin: 0;
+}
+
+.login-h2 {
+    color: #FF8A08;
+    margin-bottom: 24px;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.form-login {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.login-label {
+    margin-bottom: 4px;
+    text-align: left;
+    color: #222;
+    font-weight: 600;
+    font-size: 1.05rem;
+}
+
+.password-input-container {
+    position: relative;
+    width: 100%;
+    margin-bottom: 16px; /* Consistent spacing */
+}
+
+.password-toggle-button {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    cursor: pointer;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ff8a08;
+    font-size: 1rem;
+    z-index: 2;
+    width: 28px;
+    height: 28px;
+}
+
+.input-login:focus, input[type="email"]:focus {
+    border: 1.5px solid #ff8a08;
+    outline: none;
+}
+
+.password-input-container .input-login, input[type="email"] {
+    margin-bottom: 0; /* Ensures no extra spacing from input itself */
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #fafafa;
+    font-size: 1rem;
+    transition: border 0.2s;
+    width: 100%;
+    box-sizing: border-box;
+    padding-right: 50px; /* Consistent padding for icon space */
+    line-height: normal; /* Adjusted for better vertical alignment */
+}
+
+.LoginButton {
+    padding: 12px;
+    background-color: #ff8a08;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: 8px;
+    transition: background 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 8px rgba(255, 138, 8, 0.08);
+}
+
+.LoginButton:hover {
+    background-color: #FF6504;
+    box-shadow: 0 4px 16px rgba(255, 138, 8, 0.12);
+}
+
+p {
+    margin-top: 18px;
+    color: #000;
+    font-size: 1rem;
+}
+
+.login-container p a {
+    color: #FF6504;
+    text-decoration: none;
+}
+
+.login-container p a:hover {
+    text-decoration: underline;
+}

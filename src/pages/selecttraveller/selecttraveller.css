@@ -1,0 +1,151 @@
+/* .tt {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    padding: 20px;
+}
+.message-alert{
+    background-color: rgba(128, 128, 128, 0.186);
+    color: rgba(255, 166, 0, 0.934);
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+}
+.alert-emoji{
+    width: 25px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.container {
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 3%;
+}
+
+.form-group {
+    margin-bottom: 1px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-control {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.gender-options {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.gender-options label {
+    font-weight: normal;
+    margin-right: 10px;
+}
+
+.gender-options input[type="radio"] {
+    margin-right: 5px;
+}
+.add-traveller-title{
+    text-align: center;
+} */
+.save-btn{
+    width: 25%;
+    height: 50px;
+    background-color: orange;
+    border: none;
+    font-weight: bolder;
+    color: white;
+    border-radius: 10px;
+    bottom: 0;
+    margin-left: 35%;
+} 
+.message-alert {
+    background-color: rgba(128, 128, 128, 0.186);
+    color: rgba(255, 166, 0, 0.934);
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+}
+
+.alert-emoji {
+    width: 25px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.traveller-container {
+    background-color: #f8f9fa;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 3%;
+    position: relative;
+    max-height: 40%;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-control {
+    width: 98%;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+}
+
+.gender-options {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.gender-options label {
+    font-weight: normal;
+    margin-right: 10px;
+}
+
+.gender-options input[type="radio"] {
+    margin-right: 5px;
+}
+
+.add-traveller-title {
+    text-align: center;
+}
+
+.save-btn:hover {
+    background-color: #ff9800;
+}
+#traveller-info-form {
+    margin-bottom: 10%;
+}
